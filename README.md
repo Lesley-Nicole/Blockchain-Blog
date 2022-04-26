@@ -1,5 +1,5 @@
 
-<p align="center"><img src="./assets/dblog.png" width="35%" alt="blog icon"></p>
+<p align="center"><img src="/blockchain-blog/assets/dblog.png" width="30%" alt="blog icon"></p>
 
 <h1 align="center">Blockchain Blog</h1>
 
@@ -19,12 +19,12 @@ A colorful, responsive blog template for decentralized websites. Customize style
 - Email button for contact method
 - footer for your logo
 
-![blog template](./assets/screens.png) 
+![blog template](blockchain-blog/assets/screens.png) 
 
 <h3 align="center">Installation</h3>
 
 ```
-git clone https://www.github.com/lesley-nicole/blockchain-blog
+git clone https://www.github.com/Lesley-Nicole/Blockchain-Blog.git
 
 ```
 
@@ -56,13 +56,13 @@ git clone https://www.github.com/lesley-nicole/blockchain-blog
 
 ##### Liscense
 
-MIT 2022
+[MIT](LICENSE) 
 
 
 ---
 
 <p align="center"><a href="https://lesley-nicole.github.io">
-<img src="./assets/name-icon.png"></a>
+<img src="blockchain-blog/assets/name-icon.png" alt="lesley-nicole" width="25%"></a><br>2022
 </p>
 
 
