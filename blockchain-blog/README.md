@@ -24,7 +24,7 @@ A colorful, responsive blog template for decentralized websites. Customize style
 <h3 align="center">Installation</h3>
 
 ```
-git clone https://www.github.com/lesley-nicole/d-blog
+git clone https://www.github.com/lesley-nicole/blockchain-blog
 
 ```
 
