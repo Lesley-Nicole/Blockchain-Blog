@@ -1,0 +1,193 @@
+@font-face {
+  font-family: Raleway;
+  src: url("./assets/Raleway-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("./assets/Raleway-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Header/Blog Title */
+.header {
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(61, 60, 60), 0 6px 20px 0 rgb(95, 95, 95);
+}
+
+/* Create two equal columns that floats next to each other */
+/* Left Column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right Column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 2px 2px 2px #666;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+/* Add a card effect for articles */
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgb(61, 60, 60), 0 6px 20px 0 rgb(95, 95, 95);
+}
+
+p {
+  font-size: 2vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#more {
+  display: none;
+}
+
+#readBtn {
+  font-size: 2vh;
+  padding: 8px;
+  border-radius: 4px;
+  width: 20%;
+  font-weight: bold;
+  margin: auto;
+  letter-spacing: 1.5px;
+  box-shadow: 0 2px 2px 0, #666;
+}
+
+#read2Btn {
+  font-size: 2vh;
+  padding: 8px;
+  border-radius: 4px;
+  width: 20%;
+  font-weight: bold;
+  margin: auto;
+  letter-spacing: 1.5px;
+  box-shadow: 0 2px 2px 0, #666;
+}
+
+#less {
+  display: none;
+}
+
+.popular-post {
+  text-align: center;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  padding: 20px;
+  font-size: 2vh;
+}
+
+.popular-post a {
+  font-size: 2vh;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.flex-container {
+  font-size: 2vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: none;
+}
+
+.iconholder {
+  font-size: 2.5vh;
+  justify-content: center;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-container> .contact {
+  font-size: 2vh;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  margin: 5px;
+  text-align: center;
+  flex-direction: row;
+}
+
+h3 {
+  font-size: 2vh;
+}
+
+.contact a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 2vh;
+  border-radius: 4px;
+  padding: 7px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 #666;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  font-size: 2vh;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.author {
+  margin: auto;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}

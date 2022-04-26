@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Change this to your own title-->
+    <title>Blog Template</title>
+    <!--Update favicon-->
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./assets/Raleway-ExtraLight.ttf" rel="font">
+    <link href="./assets/Raleway-ExtraLightItalic.ttf" rel="font">
+</head>
+
+<!--Update background-color-->
+
+<body
+    style="background-image:linear-gradient(rgb(223, 151, 17),rgb(255, 72, 0), rgb(187, 18, 69), deeppink,rgb(182, 6, 182), rgb(95, 3, 95))">
+    <!--Update background-color-->
+    <div class="header" style="background-color:white">
+        <!--Update font-color, text-shadow color and text values-->
+        <h1 style="color:rgb(70, 69, 69);text-shadow:3px 3px 5px rgb(165, 35, 252)">BLOG TITLE</h1>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <!--Update background-color, color-->
+            <div class="card" style="background-color:white;color:rgb(88, 88, 88)">
+                <!--Update text values of h2, h5-->
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Date</h5>
+                <!--Update image-->
+                <div class="fakeimg" style="height:200px;background-image:url('assets/image1.png')"></div>
+                <!--Update text values-->
+                <p style="color:black">Some text...<span id="dots">...</span><span id="more">
+                        Some more text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                        nulla et dictum interdum, nisi lorem egestas vitae scel...
+                    </span>
+                </p>
+                <!--Update background-color and font color-->
+                <button onclick="read()" id="readBtn" style="background-color:rgb(250, 94, 37);color:white">Read
+                    more</button>
+            </div>
+
+            <!--Update background-color, color-->
+            <div class="card" style="background-color:white;color:rgb(88, 88, 88)">
+                <!--Update text values for h2, h5-->
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Date</h5>
+                <!--Update image-->
+                <div class="fakeimg" style="height:200px;background-image:url('assets/image2.png')"></div>
+                <!--Update text values-->
+                <p style="color:black">Some text...<span id="dots2">...</span><span id="less">
+                        Some more test. Lorem ipsum dolor sit amet, consetetur adipiscing elit....
+                    </span>
+                </p>
+                <!--Update background-color and font color-->
+                <button onclick="readAgain()" id="read2Btn" style="background-color:rgb(250, 94, 37);color:white">Read
+                    more</button>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <!--Update background-color, color-->
+            <div class="card" style="background-color:white;color:rgb(88, 88, 88)">
+                <h2>About me</h2>
+                <!--Update image-->
+                <div class="fakeimg"
+                    style="color:white;height:100px;background-image:url('assets/image3.png');background-position:center">
+                </div>
+                <!--Update text values-->
+                <p style="color:black">Some text about me.....</p>
+            </div>
+
+            <!--Update background-color, color-->
+            <div class="card" style="background-color:white;color:rgb(88, 88, 88)">
+                <h3>Popular Post</h3>
+                <!-- Update images, text values and href (popular-post) -->
+                <div class="popular-post"
+                    style="height:33%;outline:1px solid gray;background-image:linear-gradient(to bottom right, rgb(141, 70, 255), rgb(229, 73, 250), rgb(55, 0, 128))">
+                    <a href="#" target="_blank">Blog Title: Description</a>
+                </div>
+                <br>
+                <div class="popular-post"
+                    style="height:33%;outline:1px solid gray;background-image:linear-gradient(to bottom right, rgb(250, 119, 67), rgb(243, 52, 4))">
+                    <a href="#" target="_blank">Blog Title: Description</a>
+                </div>
+                <br>
+                <div class="popular-post"
+                    style="height:33%;outline:1px solid gray;background-image:linear-gradient(to bottom right, deeppink, purple, rgb(55, 0, 128))">
+                    <a href="#" target="_blank">Blog Title: Description</a>
+                </div>
+            </div>
+
+            <!--Update background-color, color-->
+            <div class="card" style="background-color:white;color:rgb(88, 88, 88)">
+                <h3 style="text-align:center">Follow Me</h3>
+                <div class="flex-container">
+                    <div class="iconholder">
+                        <!-- Telegram Logo, update href & fill -->
+                        <a target="_blank" rel="noopener noreferrer" href="" class="Social-Link">
+                            <div alt="" class="Social-Logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" />
+                                        <path fill="#8C90A2"
+                                            d="M21.905 4.819c.063.2.068.413.014.615L18.006 20.11a1.1 1.1 0 0 1-1.75.575l-4.182-3.345-2.235 2.235a1.1 1.1 0 0 1-1.856-.562l-.868-4.337-5.341-2.671a1.1 1.1 0 0 1 .16-2.033l18.591-5.87a1.1 1.1 0 0 1 1.38.717zm-2.34 1.683L4.656 11.21l3.39 1.694 7.572-3.028-3.365 5.046 4.175 3.34 3.137-11.76zm-9.183 7.622l-1.239.495.265 1.327.698-1.393.062-.108.214-.32z"
+                                            opacity="1" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                        <!-- Facebook Logo, update href & fill -->
+                        <a target="_blank" rel="noopener noreferrer" href="" class="Social-Link">
+                            <div alt="" class="social-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" />
+                                        <path fill="#8C90A2"" d=" M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075
+                                            1 12 5.925 1 12 1zm0 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm3 4v2h-1a1 1 0 0 0-1
+                                            1v1.004L15 11v2l-2 .004V18h-2v-4.996L9 13v-2l2 .004V10a3 3 0 0 1 3-3h1z"
+                                            opacity="1" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                        <!-- Twitter Logo, update href & fill -->
+                        <a target="_blank" rel="noopener noreferrer" href="" class="Social-Link">
+                            <div alt="" class="social-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" />
+                                        <path fill="#8C90A2"
+                                            d="M21.12 4.508l1.414.165-.636 1.275-.931 1.865a1.475 1.475 0 0 1-.197.397c-.04.063-.177.262-.183.272a2.096 2.096 0 0 0-.082.131v2.389c0 6.112-5.915 9.995-11.501 9.995-1.143 0-2.012-.054-3.006-.271-1.637-.357-2.855-1.067-3.412-2.308l-.574-1.277 1.395-.129c1.261-.116 2.355-.356 3.195-.678-2.306-.37-3.598-1.383-3.598-3.285v-1h1c.22 0 .417-.018.595-.05C2.868 10.963 2 9.303 2 7.001v-.204c-.007-1.16.055-1.78.373-2.571.204-.508.498-.977.894-1.407L4.023 2l.733.838c2.418 2.764 4.808 4.44 7.248 4.643.01-2.55 1.938-4.48 4.5-4.48 1.195 0 2.279.454 3.13 1.272.467.096.962.174 1.486.235zm-2.211 1.654l-.307-.07-.212-.232c-.512-.561-1.154-.858-1.886-.858-1.463 0-2.5 1.042-2.5 2.5 0 .238-.006.387-.036.584-.118.785-.558 1.416-1.464 1.416-2.998 0-5.703-1.607-8.34-4.35-.136.414-.168.838-.164 1.635l.001.215c0 2.048.83 3.168 2.794 3.792l.698.222v.731c0 .887-.84 1.722-2.07 2.096.563.428 1.716.659 3.58.659h1v1c0 1.432-1.645 2.554-4.132 3.14.81.248 1.89.355 3.133.355 4.614 0 9.5-3.208 9.5-7.995v-2.5c0-.294.086-.55.227-.814.055-.104.116-.203.192-.316l.108-.16.08-.158.384-.77a16.89 16.89 0 0 1-.586-.122z"
+                                            opacity="1" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                        <!-- Instagram Logo, update href & fill -->
+                        <a target="_blank" rel="noopener noreferrer" href="" class="Social-Link">
+                            <div alt="" class="social-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" />
+                                        <path fill="#8C90A2"
+                                            d="M16 2a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6H8a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6h8zm0 2H8a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4zm-4 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                                            opacity="1" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                        <!-- LinkedIn Logo, update href & fill -->
+                        <a target="_blank" rel="noopener noreferrer" href="" class="Social-Link">
+                            <div alt="" class="social-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" />
+                                        <path fill="#8C90A2"
+                                            d="M20 2a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16zm0 2H4v16h16V4zm-8 5v.254A4.405 4.405 0 0 1 13.5 9c1.87 0 3.392 1.248 3.494 2.83L17 12v5h-2v-5c0-.482-.604-1-1.5-1-.813 0-1.42.347-1.493.89L12 12v5h-2V9h2zM9 9v8H7V9h2zM8 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                                            opacity="1" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Update background-color, color and email address -->
+                <div class="contact">
+                    <a href="mailto:@example.mail?subject=Subscribe&body=I%20agree%20to%20share%20my%20email%20address%20and%20first%20name%20with%20example.com.%20I%20understand%20I%20can%20unsubscribe%20anytime.%20Please%20send%20me%20your%20newsletter!"
+                        style="background-color:orangered;text-decoration:none;color:white;">Email</a>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Update color and logo -->
+            <div class="footer">
+                <div class="author" style="color:rgb(173, 173, 173);">made by <a href="https://lesley-nicole.github.io"
+                        target="_blank"><img src="assets/name-icon.png"
+                            style="width:30%;height:30%;display:inline;text-align:center;" alt="Lesley-Nicole"></a> 2022
+                </div>
+
+            </div>
+
+            <script>
+                function read() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("readBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+            </script>
+
+            <script>
+                function readAgain() {
+                    var dots2 = document.getElementById("dots2");
+                    var lessText = document.getElementById("less");
+                    var btnText = document.getElementById("read2Btn");
+
+                    if (dots2.style.display === "none") {
+                        dots2.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                    } else {
+                        dots2.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        lessText.style.display = "inline";
+                    }
+                }
+            </script>
+</body>
+
+</html>
